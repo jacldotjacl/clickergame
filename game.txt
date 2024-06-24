@@ -59,10 +59,3 @@ CSS
     background-size: 100% 100%;
     image-rendering: pixelated;
 }
-
-#box-rightButtonBox
-{
-	top:40%;
-	right:5%;
-}
-

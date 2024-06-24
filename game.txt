@@ -11,27 +11,28 @@ Settings
 	stylesheet:https://raw.githubusercontent.com/RubenVerg/IGM/master/dark.txt
 
 Layout
-	use default
-	*achievs
-		in:main
-		contains:Achievements
+	*rightButtonBox
+		contains:tag:rightButton
+
+	*leftButtonBox
+		contains:tag:leftButton
 
 Buttons
 	*BronteButton
 		name:Bronte
-		desc:Don't poke him!
 		on click:yield 1 Brontes
 		icon:https://file.garden/ZLvPQieVhBA68hAk/idlegamebronte/1691920059722_256x256.png
 		class:bigButton hasFlares
 		no text
+		tag:rightButton
 
 	*MakaiButton
+		name:Bronte
 		on click:yield 1 Makais
+		icon:https://file.garden/ZLvPQieVhBA68hAk/bronteclickerv2/256x256makai
+		class:bigButton hasFlares
 		no text
-		icon:https://file.garden/ZLvPQieVhBA68hAk/bronteclickerv2/Snapchat-1271197903-removebg-pre.png
-		no tooltip
-		class:hasFlares
-		req:1 Brontes
+		tag:leftButton
 		
 Buildings
 	*Clicker
@@ -58,3 +59,10 @@ CSS
     background-size: 100% 100%;
     image-rendering: pixelated;
 }
+
+#box-rightButtonBox
+{
+	top:40%;
+	right:5%;
+}
+

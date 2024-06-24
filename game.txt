@@ -53,9 +53,3 @@ Resources
 		desc:Valuable currency only used in Makaiville
 		show earned
 
-CSS
-#game.on 
-{
-    background-size: 100% 100%;
-    image-rendering: pixelated;
-}

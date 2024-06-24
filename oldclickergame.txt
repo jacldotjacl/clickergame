@@ -1,3 +1,5 @@
+// code doesn't work on github, just an example from pastebin :D
+
 Let's make a game!
 	name:Bronte Clicker
 	by:Jack

@@ -225,3 +225,9 @@ q {
   font-style: italic;
   color: #6c757d;
 }
+
+#box-rightButtonBox
+{
+	top:40%;
+	right:5%;
+}

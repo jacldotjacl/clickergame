@@ -19,11 +19,11 @@ Layout
 Buttons
 	*BronteButton
 		name:Bronte
+		desc:Don't poke him!
 		on click:yield 1 Brontes
+		icon:https://file.garden/ZLvPQieVhBA68hAk/idlegamebronte/1691920059722_256x256.png
 		class:bigButton hasFlares
-		no tooltip
 		no text
-		icon:https://file.garden/ZLvPQieVhBA68hAk/idlegamebronte/1691920059722.png
 
 	*MakaiButton
 		on click:yield 1 Makais

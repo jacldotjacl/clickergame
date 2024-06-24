@@ -13,6 +13,10 @@ Settings
 Layout
 	*logBox
 		contains:Log
+Buttons
+	*BronteButton
+		on click:yield 1 Brontes
+		class:bigButton hasFlares
 
 Buildings
 	*Clicker

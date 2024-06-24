@@ -14,7 +14,7 @@ Layout
 	use default
 	*achievs
 		in:main
-		contains:achievements
+		contains:Achievements
 
 Buttons
 	*BronteButton

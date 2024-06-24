@@ -13,10 +13,6 @@ CSS
     image-rendering: pixelated;
 }
 
-Layout
-	*ButtonBox
-		contains:Buttons
-
 Settings
 	background:https://file.garden/ZLvPQieVhBA68hAk/bronteclickerv2/firewatch-3840-x-2160-v0-l8y6j05.jpg
 	stylesheet:https://raw.githubusercontent.com/RubenVerg/IGM/master/dark.txt

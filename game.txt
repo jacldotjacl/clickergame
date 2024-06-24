@@ -22,14 +22,16 @@ Buttons
 		on click:yield 1 Brontes
 		class:bigButton hasFlares
 		no tooltip
+		no text
+		icon:https://file.garden/ZLvPQieVhBA68hAk/idlegamebronte/1691920059722.png
 
 	*MakaiButton
 		on click:yield 1 Makais
 		no text
-		icon:https://file.garden/ZLvPQieVhBA68hAk/bronteclickerv2/Snapchat-1271197903-removebg-preview.png
+		icon:https://file.garden/ZLvPQieVhBA68hAk/bronteclickerv2/Snapchat-1271197903-removebg-pre.png
 		no tooltip
 		class:hasFlares
-		req:1 Makais
+		req:1 Brontes
 		
 Buildings
 	*Clicker

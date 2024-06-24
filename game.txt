@@ -12,7 +12,7 @@ Settings
 
 Layout
 	*logBox
-		contains:log
+		contains:Log
 
 Buildings
 	*Clicker

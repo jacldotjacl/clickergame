@@ -1,0 +1,50 @@
+Let's make a game!
+	name:Bronte Clicker 2
+	by:Jack
+	desc:Click Bronte until he pops!
+	created:6/24/2024
+	updated:6/25/2024
+	version:1
+
+CSS
+#game.on 
+{
+    background-size: 100% 100%;
+    image-rendering: pixelated;
+}
+
+Layout
+	*ButtonBox
+		contains:Buttons
+
+Settings
+	background:https://file.garden/ZLvPQieVhBA68hAk/bronteclickerv2/firewatch-3840-x-2160-v0-l8y6j05.jpg
+	stylesheet:https://raw.githubusercontent.com/RubenVerg/IGM/master/dark.txt
+
+Buttons
+	*Bronte
+		name:Bronte
+		desc:Don't poke him!
+		on click:yield 1 Brontes
+		icon:https://file.garden/ZLvPQieVhBA68hAk/idlegamebronte/1691920059722_256x256.png
+		class:bigButton hasFlares
+		no text
+	*Bronte2
+		name:Bronte2
+		desc:Don't poke him!
+		on click:yield 1 Brontes
+		icon:https://file.garden/ZLvPQieVhBA68hAk/idlegamebronte/1691920059722_256x256.png
+		class:bigButton hasFlares
+		no text
+
+Resources
+	*Brontes
+		name:Brontes
+		desc:It's Bronte!
+ 
+	*Makais
+		name:Makais
+		desc:It's Makai!
+
+
+

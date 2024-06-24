@@ -226,9 +226,4 @@ q {
   color: #6c757d;
 }
 
-#box-logBox{
-position:absolute;
-bottom: 0px;
-left: 0px;
-}
 

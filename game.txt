@@ -8,6 +8,7 @@ Let's make a game!
 
 Settings
 	background:https://file.garden/ZLvPQieVhBA68hAk/bronteclickerv2/firewatch-3840-x-2160-v0-l8y6j05.jpg
+	stylesheet:https://raw.githubusercontent.com/jacldotjacl/clickergame/main/stylesheet
 
 Buildings
 	*Clicker

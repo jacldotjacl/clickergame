@@ -4,7 +4,7 @@ Let's make a game!
 	desc:Click Bronte until he pops!
 	created:6/24/2024
 	updated:6/25/2024
-	version:1.1
+	version:1.5
 
 Settings
 	background:https://file.garden/ZLvPQieVhBA68hAk/bronteclickerv2/firewatch-3840-x-2160-v0-l8y6j05.jpg
@@ -16,3 +16,19 @@ CSS
     background-size: 100% 100%;
     image-rendering: pixelated;
 }
+
+Buildings
+	*Clicker
+		name:Clicker
+		desc:Clicks Bronte for you and earns 1 Bronte every second!
+		on tick:yield 1 Brontes
+		icon:https://file.garden/ZLvPQieVhBA68hAk/idlegamebronte/1691921593711.png
+		
+Resources
+	*Brontes
+		name:Brontes
+		desc:Valuable currency only used in Brontebourne
+
+	*Makais
+		name:Makais
+		desc:Valuable currency only used in Makaiville

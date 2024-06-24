@@ -23,7 +23,7 @@ Buttons
 		icon:https://file.garden/ZLvPQieVhBA68hAk/bronteclickerv2/Snapchat-1271197903-removebg-preview.png
 		no tooltip
 		class:hasFlares
-		reg:1 Makais
+		req:1 Makais
 		
 Buildings
 	*Clicker

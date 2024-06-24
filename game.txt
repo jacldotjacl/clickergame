@@ -5,3 +5,13 @@ Let's make a game!
 	created:6/24/2024
 	updated:6/25/2024
 	version:1.1
+
+Settings
+	background:https://file.garden/ZLvPQieVhBA68hAk/bronteclickerv2/firewatch-3840-x-2160-v0-l8y6j05.jpg
+
+CSS
+#game.on 
+{
+    background-size: 100% 100%;
+    image-rendering: pixelated;
+}

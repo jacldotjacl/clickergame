@@ -1,0 +1,227 @@
+:root {
+  font-size: 0.75rem;
+}
+
+#game {
+  background: #343a40;
+  color: #f8f9fa;
+  text-shadow: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.box:not(#box-buttons) {
+  text-align: center;
+  padding: 0px;
+  box-shadow: none;
+  background-color: #343a40;
+}
+.box:not(#box-buttons)#box-main {
+  background-color: rgba(52, 58, 64, 0.25);
+}
+.box:not(#box-buttons)#box-main .box-things {
+  background-color: rgba(248, 249, 250, 0.1);
+}
+
+.thing,
+.box-header,
+.box-footer,
+.box-bit {
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin: 1px;
+}
+
+.thing:hover {
+  background: rgba(248, 249, 250, 0.5);
+}
+
+.box-header {
+  margin-bottom: 4px;
+}
+
+.box-footer {
+  margin-top: 4px;
+}
+
+.title {
+  font-size: 1.25rem;
+}
+
+#box-main {
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  overflow: hidden;
+  width: 60%;
+  position: absolute;
+}
+
+#box-res.fullWidth {
+  width: 100%;
+  top: 5%;
+  height: 5%;
+  min-height: 32px;
+  z-index: 100;
+  position: absolute;
+}
+
+#box-buttons {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+#box-store {
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 40%;
+  position: absolute;
+}
+
+#box-buildings,
+#box-upgrades {
+  top: 0px;
+  bottom: 0px;
+  width: 50%;
+  right: 0%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-bottom: 48px;
+  /* this is to accommodate the info and settings buttons */
+  position: absolute;
+}
+
+#box-buildings {
+  right: 50%;
+}
+
+#box-buildings > .box-header {
+  padding-bottom: 16px;
+}
+
+#bulkDisplay {
+  margin: -20px 24px 6px 24px;
+  border: none;
+  background: transparent;
+}
+
+.thing {
+  display: inline-block;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.thing:active {
+  opacity: 0.5;
+}
+
+.upgrade.owned,
+.achiev.owned {
+  box-shadow: 0px 0px 10px 5px rgba(248, 249, 250, 0.25) inset;
+}
+
+.thing.cantAfford {
+  opacity: 0.65;
+}
+
+.upgrade.cantAfford {
+  border: none;
+}
+
+.thing-costs {
+  font-weight: bold;
+  text-shadow: 1px 1px 0px rgba(248, 249, 250, 0.5);
+}
+
+.cost.hasEnough {
+  color: #28a745;
+}
+
+.cost.notEnough {
+  color: #dc3545;
+}
+
+.button > .thing-text {
+  text-decoration: underline;
+}
+
+.building {
+  display: block;
+  margin-right: 0px;
+  font-size: 14px;
+}
+
+.fullWidth {
+  display: block;
+  margin-left: 0px;
+  margin-right: 0px;
+  z-index: 10;
+}
+
+#game .fullWidth {
+  height: auto;
+  min-height: auto;
+}
+
+.fullWidth,
+.fullWidth:hover {
+  background: rgba(52, 58, 64, 0.75);
+  box-shadow: none;
+  color: #f8f9fa;
+}
+
+.fullWidth:before,
+.fullWidth:after {
+  content: "";
+  height: 1px;
+  background: rgba(52, 58, 64, 0.75);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.fullWidth:before {
+  top: -1px;
+}
+
+.fullWidth:after {
+  bottom: -1px;
+}
+
+.fullWidth .thing-icon {
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.fullWidth .thing-text {
+  margin-top: -4px;
+  margin-bottom: -4px;
+}
+
+.listing {
+  font-weight: normal;
+}
+
+#game.filtersOn .thing-icon {
+  filter: drop-shadow(3px 3px 1px rgba(248, 249, 250, 0.5));
+}
+#game.filtersOn .upgrade.cantAfford:not(:hover) {
+  filter: blur(2px) grayscale(50%);
+}
+#game.filtersOn .upgrade.cantAfford:hover {
+  filter: grayscale(25%);
+}
+
+b {
+  font-weight: bolder;
+}
+
+q {
+  font-style: italic;
+  color: #6c757d;
+}

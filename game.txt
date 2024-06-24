@@ -16,6 +16,7 @@ Buildings
 		desc:Clicks Bronte for you and earns 1 Bronte every second!
 		on tick:yield 1 Brontes
 		icon:https://file.garden/ZLvPQieVhBA68hAk/idlegamebronte/1691921593711.png
+		cost:10 Brontes
 		
 Resources
 	*Brontes

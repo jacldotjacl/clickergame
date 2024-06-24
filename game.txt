@@ -22,10 +22,12 @@ Resources
 	*Brontes
 		name:Brontes
 		desc:Valuable currency only used in Brontebourne
+		show earned
 
 	*Makais
 		name:Makais
 		desc:Valuable currency only used in Makaiville
+		show earned
 
 CSS
 #game.on 

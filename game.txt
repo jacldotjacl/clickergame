@@ -12,16 +12,19 @@ Settings
 
 Buttons
 	*BronteButton
+		name:Bronte
 		on click:yield 1 Brontes
 		class:bigButton hasFlares
-		name:hide
+		no tooltip
 
 	*MakaiButton
 		on click:yield 1 Makais
 		no text
-		icon:https://file.garden/ZLvPQieVhBA68hAk/idlegamebronte/1691921593711.png
+		icon:https://file.garden/ZLvPQieVhBA68hAk/bronteclickerv2/Snapchat-1271197903-removebg-preview.png
+		no tooltip
+		class:hasFlares
+		reg:1 Makais
 		
-
 Buildings
 	*Clicker
 		name:Clicker

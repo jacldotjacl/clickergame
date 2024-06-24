@@ -1,7 +1,7 @@
 Let's make a game!
 	name:Bronte Clicker 2
 	by:Jack
-	desc:Click bronte until he pops!
+	desc:Click Bronte until he pops!
 	created:6/24/2024
 	updated:6/25/2024
-	version:1.01
+	version:1.1

@@ -25,13 +25,6 @@ Buttons
 		icon:https://file.garden/ZLvPQieVhBA68hAk/idlegamebronte/1691920059722_256x256.png
 		class:bigButton hasFlares
 		no text
-	*Bronte2
-		name:Bronte2
-		desc:Don't poke him!
-		on click:yield 1 Brontes
-		icon:https://file.garden/ZLvPQieVhBA68hAk/idlegamebronte/1691920059722_256x256.png
-		class:bigButton hasFlares
-		no text
 
 Resources
 	*Brontes
